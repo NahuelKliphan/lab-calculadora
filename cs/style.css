@@ -1,28 +1,26 @@
-form {
-
+form 
+{
     width: 100%;
   
     max-width: 400px;
   
     text-align: center;
   
-    
-  
     padding-bottom: 10px;
   
     margin: auto;
   
-    background: #506663;
+    background: #264067;
 
     color:#ccc;
 
-    border: solid 5px silver;
+    border: solid 5px #000;
 
-  
+    margin-top: 250px;
   }
   
-  input[type=textfield] {
-  
+  input[type=textfield] 
+  {
       width: 75%;
   
       padding: 16px 32px;
@@ -32,25 +30,23 @@ form {
       margin: 8px 0;
   
       border: 1px solid silver;
-  
-      border-radius: 1px;
-  
+
       text-align: right;
   
       color: #333;
   
-      background: #ccc;
+      background: #fff;
 
-  
   }
   
-  input[type=button], input[type=submit], input[type=reset] {
+  input[type=button], input[type=submit], input[type=reset] 
+  {
   
-      background-color: #4CAF50;
+      background-color: #b2c6dd;
   
-      border: solid 2px silver;
+      border: solid 2px #000;
   
-      color: white;
+      color: 000;
   
       padding: 16px 32px;
   
@@ -63,13 +59,15 @@ form {
       margin: 4px 2px;
   
       cursor: pointer;
-
- 
-  
   }
   
-  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover 
+  {
   
     background-color: #333;
   
+  }
+  body
+  {
+    background-color:  #14202b;
   }

@@ -5,15 +5,6 @@ var total=0;
 var op="" ;
 
 
-function multiplicar() {
-    document.getElementById("visor").value = "";
-    a=0;
-    b=0;
-    total=0;
-    op="" ;
-
-}
-
 function operador(o) {
     op = o;
     b = parseInt(b);
@@ -35,7 +26,7 @@ function resultado() {
             var total = parseInt(b) - parseInt(a);
 
             break;
-            case '/':
+            case '÷':
 
             var total = parseInt(b) / parseInt(a);
 
@@ -52,10 +43,6 @@ function resultado() {
     document.getElementById("visor").value = total;
      a= total;
 
-
-    
- 
-
 }
 
 function agregarNumero(n) {
@@ -64,4 +51,13 @@ function agregarNumero(n) {
 
     document.getElementById("visor").value += n;
 
+}
+
+function Limpiar()
+{
+    document.getElementById("visor").value = "";
+    a=0;
+    b=0;
+    total=0;
+    op="" ;
 }

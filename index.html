@@ -4,44 +4,22 @@
 
 <head>
 
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <LINK REL="stylesheet" TYPE="text/css" HREF="style.css">
+  <LINK REL="stylesheet" TYPE="text/css" HREF="cs/style.css">
 
 </head>
 
-<body>
+<body  >
 
 
   <form name="calculator">
 
-    <h3>Calculadora</h3>
+    <h2>Calculadora</h2>
 
-    <input type="textfield" id="visor" value="" readonly >
-
-    <br>
-
-    <input type="button" value="1" onClick= "agregarNumero(value)" >
-
-    <input type="button"  value="2" onClick="agregarNumero(value)">
-
-    <input type="button"  value="3" onClick="agregarNumero(value)">
-
-    <input type="button"  value="+" onClick="operador(value)">
-
-    <br>
-
-    <input type="button" value="4" onClick="agregarNumero(value)">
-
-    <input type="button" value="5" onClick="agregarNumero(value)">
-
-    <input type="button" value="6" onClick="agregarNumero(value)">
-
-    <input type="button" value="-" onClick="operador(value)">
-
-    <br>
+    <input type="textfield" id="visor" value="" readonly>
 
     <input type="button" value="7" onClick="agregarNumero(value)">
 
@@ -53,20 +31,31 @@
 
     <br>
 
+    <input type="button" value="4" onClick="agregarNumero(value)">
+    <input type="button" value="5" onClick="agregarNumero(value)">
+    <input type="button" value="6" onClick="agregarNumero(value)">
+    <input type="button" value="÷" onClick="operador(value)">
+
+    <br>
+
+    <input type="button" value="1" onClick="agregarNumero(value)">
+    <input type="button" value="2" onClick="agregarNumero(value)">
+    <input type="button" value="3" onClick="agregarNumero(value)">
+    <input type="button" value="-" onClick="operador(value)">
+
+    <br>
+
     <input type="button" value="0" onClick="agregarNumero(value)">
-
-    <input type="reset" value="c" onclick="multiplicar()">
-
-    <input type="button" value="/" onClick="operador(value)">
-
+    <input type="reset" value="C" onclick="Limpiar()">
     <input type="button" value="=" onClick="resultado()">
+    <input type="button" value="+" onClick="operador(value)">
 
-    </form>
+  </form>
 
-    <script src="calc.js">
-    
+  <script src="/script/calc.js">
 
-    </script>
+
+  </script>
 
 </body>
 
